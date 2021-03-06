@@ -1,6 +1,6 @@
 # sorting-hat
 ### An Introduction
-In Harry Potter, students are sorted into 4 houses (Gryffindor, Ravenclaw, Hufflepuff, and Slytherin), by a talking hat that can see inside their heads, but for people that want to be sorted in real life, the Wizarding World (formerly known as Pottermore), came out with a Sorting Hat Quiz. Basically, users answer 7 questions and are given their House at the end. I trained my own machine learning model to mimic the official Sorting Hat Quiz by using data compiled from over 2000+ sortings.
+At the Hogwarts School of Witchcraft & Wizardry in the Harry Potter universe, incoming students are sorted into four houses, Gryffindor, Ravenclaw, Hufflepuff, and Slytherin, by a talking hat that can see inside their heads. In real life, we can be sorted by the Sorting Hat Quiz on The Wizarding World website, an official part of the Harry Potter franchise. The quiz asks 7 questions and assigns a house based on the answers, but obviously, the logic used is unknown. I created a few machine learning models of the sorting hat quiz and trained them on 2000+ past sortings. The ML model using XGBoost, with an 86% accuracy, turns out to be much more accurate than the Random Forest model, at 75% accuracy, and a simple decision tree model.
 
 ### Try it out!
 Just download the jupyter notebook and code from this repository!
